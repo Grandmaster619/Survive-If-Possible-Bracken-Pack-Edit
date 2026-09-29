@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"# #",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:emerald"
+	},
+	"result": {
+		"id": "minecraft:copper_chestplate",
+		"components": {
+			"minecraft:max_damage": 338,
+			"minecraft:equippable": {
+				"slot": "chest",
+				"asset_id": "bracken:emerald"
+			},
+			"minecraft:item_name": "Emerald Chestplate",
+			"minecraft:item_model": "bracken:average_weapons/emerald/chestplate",
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:armor",
+					"id": "bracken:emerald_chestplate",
+					"amount": 8,
+					"operation": "add_value",
+					"slot": "chest"
+				}]
+		}
+	}
+}

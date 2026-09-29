@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #"
+	],
+	"key": {
+		"#": "minecraft:emerald"
+	},
+	"result": {
+		"id": "minecraft:copper_helmet",
+		"components": {
+			"minecraft:max_damage": 232,
+			"minecraft:item_name": "Emerald Helmet",
+			"minecraft:equippable": {
+				"slot": "head",
+				"asset_id": "bracken:emerald"
+			},
+			"minecraft:item_model": "bracken:average_weapons/emerald/helmet",
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:armor",
+					"id": "bracken:emerald_helmet",
+					"amount": 6,
+					"operation": "add_value",
+					"slot": "head"
+				}]
+		}
+	}
+}

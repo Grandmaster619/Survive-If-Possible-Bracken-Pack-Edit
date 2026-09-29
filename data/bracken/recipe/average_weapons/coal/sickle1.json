@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" ##",
+		" # ",
+		"/  "
+	],
+	"key": {
+		"#": "minecraft:coal",
+		"/": "minecraft:stick"
+	},
+	"result": {
+		"id": "minecraft:wooden_sword",
+		"components": {
+			"minecraft:max_damage": 118,
+			"minecraft:item_name": "Coal Sickle",
+			"minecraft:item_model": "bracken:average_weapons/coal/sickle",
+			"minecraft:lore": [
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "5 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false}
+			],
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:attack_damage",
+					"id": "bracken:coal_sickle",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:attack_speed",
+					"id": "bracken:coal_sickle",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+		}
+	}
+}

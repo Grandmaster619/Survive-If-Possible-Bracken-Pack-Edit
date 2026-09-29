@@ -1,0 +1,174 @@
+{
+    "attributes": {
+        "minecraft:audio/background_music": {
+            "default": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "replace_current_music": false,
+                "sound": {"sound_id": "bracken:underdark"}
+            }
+        },
+        "minecraft:audio/ambient_sounds": 
+        {
+            "mood": {
+                "sound": "minecraft:ambient.cave",
+                "tick_delay": 6000,
+                "block_search_extent": 8,
+                "offset": 2
+            },
+            "additions": {
+                "sound": "minecraft:ambient.basalt_deltas.mood",
+                "tick_chance": 0.0001
+            }
+        },
+        "visual/ambient_particles": [{
+            "particle": {
+                "type": "minecraft:mycelium"
+            },
+            "probability": 0.118093334
+        }]
+    },
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [
+        ],
+        "misc": [],
+        "water_creature": [],
+        "axolotls": [
+            {
+                "type": "minecraft:axolotl",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 6
+            }
+        ],
+        "creature": [
+            {
+                "type": "minecraft:mooshroom",
+                "weight": 8,
+                "minCount": 4,
+                "maxCount": 8
+            },
+            {
+                "type": "minecraft:pig",
+                "weight": 12,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "monster": [
+            {
+                "type": "minecraft:zombie_villager",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:slime",
+                "weight": 15,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:hoglin",
+                "weight": 15,
+                "minCount": 2,
+                "maxCount": 6
+            },
+           
+            {
+                "type": "minecraft:magma_cube",
+                "weight": 15,
+                "minCount": 2,
+                "maxCount": 6
+            }
+        ]
+    },
+    "spawn_costs": {},
+    "carvers": [
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+      ],
+    "features": [
+        ["bracken:underdark/bedrock_rock"
+            ],
+        [
+            "minecraft:lake_lava_surface",
+            "minecraft:lake_lava_underground",
+            "bracken:underdark/crimson_spot",
+            "bracken:underdark/fungus_roots",
+            "bracken:underdark/red_mush_tree",
+            "bracken:underdark/alt_mush_tree",
+            "bracken:underdark/small_mush_tree",
+            "bracken:underdark/red_mush_dec"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_diorite_upper",
+            "minecraft:ore_diorite_lower",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "minecraft:ore_diamond",
+            "minecraft:ore_diamond_large",
+            "minecraft:ore_diamond_buried",
+            "minecraft:ore_lapis",
+            "minecraft:ore_lapis_buried",
+            "minecraft:disk_sand",
+            "minecraft:ore_gold_extra",
+            "bracken:underdark/emerald_ore",
+            "bracken:underdark/diamond_ore",
+            "bracken:underdark/magma_lower",
+            "bracken:underdark/bedrock",
+            "bracken:underdark/bedrock_opening",
+            "bracken:underdark/diorite_opening",
+            "bracken:underdark/lichen",
+            "bracken:underdark/blackstone_small",
+            "bracken:underdark/blackstone_big",
+            "minecraft:patch_tall_grass_2",
+            "bracken:underdark/smooth_basalt"
+        ],
+        [
+            "minecraft:ore_infested"
+        ],
+        ["bracken:underdark/ore_mega_coal",
+        "bracken:underdark/ore_mega_copper",
+        "bracken:underdark/ore_mega_diamond",
+        "bracken:underdark/ore_mega_emerald",
+        "bracken:underdark/ore_mega_gold",
+        "bracken:underdark/ore_mega_iron",
+        "bracken:underdark/ore_mega_redstone"],
+        [
+            "minecraft:mushroom_island_vegetation"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "water_color": 8166054,
+        "grass_color": 12162409,
+        "foliage_color": 16718886
+    },
+    "has_precipitation": false
+}

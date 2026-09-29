@@ -1,0 +1,100 @@
+{
+    "spawners": {
+        "ambient": [
+          {
+            "type": "minecraft:bat",
+            "maxCount": 8,
+            "minCount": 8,
+            "weight": 10
+          }
+        ],
+        "axolotls": [],
+        "creature": [{
+            "type": "minecraft:hoglin",
+            "maxCount": 2,
+            "minCount": 1,
+            "weight": 5
+          }],
+        "misc": [],
+        "monster": [
+          {
+            "type": "minecraft:drowned",
+            "maxCount": 4,
+            "minCount": 1,
+            "weight": 7
+          }
+        ],
+        "underground_water_creature": [
+
+        ],
+        "water_ambient": [
+          
+        ],
+        "water_creature": [
+          {
+            "type": "minecraft:squid",
+            "maxCount": 4,
+            "minCount": 4,
+            "weight": 10
+          },
+          {
+            "type": "minecraft:nautilus",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 5
+          }
+        ]
+      },
+    "spawn_costs": {
+      "minecraft:drowned":{
+        "charge": 1,
+        "energy_budget": 3
+      }
+    },
+    "carvers": [],
+    "features": [
+        [],
+        [
+            "minecraft:lake_lava_surface",
+            "minecraft:lake_lava_underground"
+        ],
+        [],
+        [],
+        [
+            "minecraft:desert_well"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:mushroom_island_vegetation",
+            "minecraft:brown_mushroom_taiga",
+            "minecraft:red_mushroom_taiga",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal",
+            "minecraft:seagrass_warm",
+            "bracken:brine/blackstone_blobs",
+            "bracken:brine/redstone_blobs",
+            "bracken:brine/rock",
+            "minecraft:kelp_cold"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+    "water_color": "#4dc0c2"},
+    "attributes": {
+
+    "minecraft:visual/ambient_particles": [{
+        "particle": {
+          "type": "minecraft:warped_spore"
+        },
+        "probability": 0.00625
+      }]
+  },
+    "has_precipitation": true
+}

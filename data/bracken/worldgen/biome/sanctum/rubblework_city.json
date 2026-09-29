@@ -1,0 +1,92 @@
+{
+    "attributes": {
+        "minecraft:audio/background_music": {
+            "default": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "replace_current_music": false,
+                "sound": "minecraft:music.nether.soul_sand_valley"
+            }
+        },
+        "audio/ambient_sounds": {
+            "additions": {
+                "sound": "minecraft:ambient.basalt_deltas.loop",
+                "tick_chance": 0.01
+            },
+            "mood": {
+                "sound": "minecraft:block.bell.resonate",
+                "tick_delay": 600,
+                "block_search_extent": 8,
+                "offset": 2
+            }
+        },
+        "visual/ambient_particles": [{
+            "particle": {
+                "type": "minecraft:white_ash"
+            },
+            "probability": 0.218093334
+        }]
+    },
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [],
+        "monster": [{
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },{
+                "type": "minecraft:creeper",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }]
+    },
+    "spawn_costs": {},
+    "carvers": [
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+    ],
+    "features": [
+        [],
+        [
+            "bracken:sanctum/rubble2",
+            "bracken:sanctum/rubble3",
+            "bracken:sanctum/rubble4",
+            "bracken:sanctum/rubble"
+        ],
+        [
+            "minecraft:basalt_pillar"
+        ],
+        [
+            "bracken:sanctum/city_tree1"
+        ],
+        [
+            "bracken:sanctum/city_tree2"
+        ],
+        [],
+        [],
+        [
+            "bracken:sanctum/city_junk"
+        ],
+        [],
+        [
+            "minecraft:spring_water"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "water_color": 16146734,
+        "grass_color": 13882581,
+        "foliage_color": 13882581
+    },
+    "has_precipitation": false
+}

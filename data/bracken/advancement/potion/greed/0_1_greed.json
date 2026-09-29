@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"drink_potion": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{bp.potion:104b,bp:[{greed_duration:0b},{greed_amplifier:1b}]}"
+					}
+				}
+			}
+		},
+		"splash_potion": {
+            "trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:luck": {
+						"amplifier": 143,
+						"duration": 15593
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		["drink_potion", "splash_potion"]
+	],
+	"rewards": {
+		"function": "bracken:player/potion/greed/0_1_greed"
+	}
+}

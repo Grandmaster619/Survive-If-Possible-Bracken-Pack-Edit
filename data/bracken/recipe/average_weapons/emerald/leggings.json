@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": "minecraft:emerald"
+	},
+	"result": {
+		"id": "minecraft:copper_leggings",
+		"components": {
+			"minecraft:max_damage": 317,
+			"minecraft:item_name": "Emerald Leggings",
+			"minecraft:equippable": {
+				"slot": "legs",
+				"asset_id": "bracken:emerald"
+			},
+			"minecraft:item_model": "bracken:average_weapons/emerald/leggings",
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:armor",
+					"id": "bracken:emerald_leggings",
+					"amount": 3,
+					"operation": "add_value",
+					"slot": "legs"
+				}]
+		}
+	}
+}

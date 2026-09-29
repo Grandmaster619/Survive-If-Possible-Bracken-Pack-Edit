@@ -1,0 +1,45 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:diamond_boots",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Quartz Boots"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/quartz/boots",
+					"minecraft:max_damage": 300,
+					"minecraft:equippable": {
+						"slot": "feet",
+						"asset_id": "bracken:quartz"
+					}
+				}
+			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:armor",
+					"id": "bracken:quartz_boots_armor",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "feet"
+				},{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:quartz_boots_armor_tough",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "feet"
+				}]
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.48,
+					"max": 0.93
+				}
+			}]
+		}]
+	}]
+}

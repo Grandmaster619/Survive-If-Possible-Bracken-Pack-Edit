@@ -1,0 +1,94 @@
+{
+    "attributes": {
+   
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": {"sound_id": "bracken:dormis"}
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:crimson_spore"
+        },
+        "probability": 0.025
+      }
+    ],
+    "visual/water_fog_color": "#000000"
+  },
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "misc": [],
+        "water_creature": [],
+        "creature": [],
+        "monster": [
+            {
+                "type": "minecraft:blaze",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:bogged",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+             {
+                "type": "minecraft:zombie_villager",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ]
+    },
+    "spawn_costs": {},
+    "carvers": "minecraft:nether_cave",
+  
+    "features": [
+        [],
+        [
+            "minecraft:lake_lava_surface",
+            "minecraft:lake_lava_underground"
+        ],
+        ["bracken:dormis/sandstone_pillar","bracken:dormis/fire"],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {       
+        "water_color": "#000000",
+        "grass_color": "#dcc589",
+        "foliage_color": "#dcc589"},
+    "has_precipitation": false
+}
+
+
+
+
+
+
+
+
+
+       
+   

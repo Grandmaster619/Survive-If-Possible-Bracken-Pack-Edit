@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": "minecraft:quartz"
+	},
+	"result": {
+		"id": "minecraft:diamond_boots",
+		"components": {
+			"minecraft:max_damage": 300,
+			"minecraft:equippable": {
+				"slot": "feet",
+				"asset_id": "bracken:quartz"
+			},
+			"minecraft:item_name": "Quartz Boots",
+			"minecraft:item_model": "bracken:average_weapons/quartz/boots",
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:armor",
+					"id": "bracken:quartz_boots",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "feet"
+				},
+				{
+					"type": "minecraft:armor_toughness",
+					"id": "bracken:quartz_boots_armor_toughness",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "feet"
+				}]
+		}
+	}
+}

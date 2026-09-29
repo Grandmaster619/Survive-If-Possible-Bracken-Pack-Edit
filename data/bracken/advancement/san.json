@@ -1,0 +1,27 @@
+{
+	"parent": "minecraft:nether/root",
+	"display": {
+		"title": {
+			"translate": "An Antique Land"
+		},
+		"description": {
+			"translate": "Break bedrock and fall below the Nether. Welcome to Sanctum",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:clay"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 2
+	}
+}

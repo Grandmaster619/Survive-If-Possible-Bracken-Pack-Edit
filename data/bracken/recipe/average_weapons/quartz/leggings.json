@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": "minecraft:quartz"
+	},
+	"result": {
+		"id": "minecraft:diamond_leggings",
+		"components": {
+			"minecraft:max_damage": 347,
+			"minecraft:item_name": "Quartz Leggings",
+			"minecraft:equippable": {
+				"slot": "legs",
+				"asset_id": "bracken:quartz"
+			},
+			"minecraft:item_model": "bracken:average_weapons/quartz/leggings",
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:armor",
+					"id": "bracken:quartz_leggings",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "legs"
+				},
+				{
+					"type": "minecraft:armor_toughness",
+					"id": "bracken:quartz_boots_armor_toughness",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "feet"
+				}]
+		}
+	}
+}

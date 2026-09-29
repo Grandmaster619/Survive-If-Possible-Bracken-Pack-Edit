@@ -1,0 +1,103 @@
+{
+    "attributes": {
+        "minecraft:audio/background_music": {
+            "default": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "replace_current_music": false,
+                "sound": {"sound_id": "bracken:faewild"}
+            }
+        },
+        "audio/ambient_sounds": {
+            "additions": {
+                "sound": "minecraft:ambient.crimson_forest.additions",
+                "tick_chance": 0.01
+            },
+            "mood": {
+                "sound": "minecraft:ambient.underwater.loop.additions",
+                "tick_delay": 60,
+                "block_search_extent": 8,
+                "offset": 2
+            }
+        }
+    },
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [
+            {
+                "type": "minecraft:allay",
+                "weight": 5,
+                "minCount": 2,
+                "maxCount": 6
+            }
+        ],
+        "monster": [
+        {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:slime",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:stray",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:parched",
+                "weight": 2,
+                "minCount": 4,
+                "maxCount": 4
+            }
+    ]
+    },
+    "spawn_costs": {
+        "minecraft:phantom":{
+            "charge": 1,
+            "energy_budget": 4
+        }
+    },
+    "carvers": [],
+    "features": [
+        [],
+        [
+        ],
+        [],
+        [],
+        [],
+        ["minecraft:ore_copper","minecraft:ore_lapis"],
+        [
+            "bracken:faewild/lapis_ore","bracken:faewild/copper_ore"
+        ],
+        [],
+        [],
+        [
+            "minecraft:seagrass_swamp",
+            "minecraft:sea_pickle",
+            "bracken:faewild/stone_tree",
+            "minecraft:twisting_vines",
+            "minecraft:nether_sprouts"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "water_color": 4996043,
+        "grass_color": 2065734,
+        "foliage_color": 2065734
+    },
+    "has_precipitation": true
+}

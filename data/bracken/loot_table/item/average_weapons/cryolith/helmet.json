@@ -1,0 +1,33 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:iron_helmet",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Cryolith Helmet"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/cryolith/helmet",
+					"minecraft:max_damage": 115,
+					"minecraft:equippable": {
+						"slot": "head",
+						"camera_overlay": "bracken:misc/cryolith",
+						"asset_id": "bracken:cryolith",
+						"equip_sound": "minecraft:block.snow.fall"
+					}
+				}
+			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:curse/fragility": 1,
+					"bracken:quenching": 1,
+					"minecraft:vanishing_curse": 1
+				}
+			}]
+		}]
+	}]
+}

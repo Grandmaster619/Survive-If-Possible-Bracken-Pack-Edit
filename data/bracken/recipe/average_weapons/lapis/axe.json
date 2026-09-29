@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"##",
+		"#/",
+		" /"
+	],
+	"key": {
+		"#": "minecraft:lapis_lazuli",
+		"/": "minecraft:stick"
+	},
+	"result": {
+		"id": "minecraft:stone_axe",
+		"components": {
+			"minecraft:max_damage": 190,
+			"minecraft:item_name": "Lapis Axe",
+			"minecraft:item_model": "bracken:average_weapons/lapis/axe",
+			"minecraft:lore": [
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "9 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "0.5 Attack Speed","color":"dark_green","italic":false}
+			],
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:attack_speed",
+					"id": "bracken:lapis_axe",
+					"amount": -3.2,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:attack_damage",
+					"id": "bracken:lapis_axe",
+					"amount": 8,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:block_break_speed",
+					"id": "bracken:lapis_axe",
+					"amount": 0.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+		}
+	}
+}

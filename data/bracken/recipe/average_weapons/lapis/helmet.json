@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #"
+	],
+	"key": {
+		"#": "minecraft:lapis_lazuli"
+	},
+	"result": {
+		"id": "minecraft:golden_helmet",
+		"components": {
+			
+			"minecraft:item_name": "Lapis Helmet",
+			"minecraft:max_damage": 110,
+			"minecraft:equippable": {
+				"slot": "head",
+				"asset_id": "bracken:lapis"
+			},
+			"minecraft:item_model": "bracken:average_weapons/lapis/helmet"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"changed_dimension": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "bracken:panacea"
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:dimension/travel/leave/panacea"
+	}
+}

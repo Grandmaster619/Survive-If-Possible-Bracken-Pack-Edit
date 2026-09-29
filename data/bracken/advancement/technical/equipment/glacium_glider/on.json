@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"equipment_tracking": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [{
+					"condition": "reference",
+					"name": "bracken:item/glacium_glider"
+				}]
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:item/equipment/glacium_glider/on"
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:copper_leggings",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Emerald Leggings"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/emerald/leggings",
+					"minecraft:max_damage": 317,
+					"minecraft:equippable": {
+						"slot": "legs",
+						"asset_id": "bracken:emerald"
+					}
+				}
+			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:armor",
+					"id": "bracken:emerald_leggings_armor",
+					"amount": 3,
+					"operation": "add_value",
+					"slot": "legs"
+				},{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:emerald_leggings_armor_tough",
+					"amount": 0,
+					"operation": "add_value",
+					"slot": "legs"
+				}]
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.48,
+					"max": 0.93
+				}
+			}]
+		}]
+	}]
+}

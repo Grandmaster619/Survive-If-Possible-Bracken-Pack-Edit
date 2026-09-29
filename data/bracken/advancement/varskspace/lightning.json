@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:lightning_strike",
+			"conditions": {
+				"lightning": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						
+							"entity_type": "lightning_bolt",
+						
+						"distance": {
+							"absolute": {
+								"max": 3
+							}
+						},
+						"nbt": {
+						"Tags": [
+						"bp.varsk_lightning"
+					]
+              }
+					}
+				}]
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:dimension/crossing/varskspace_travel"
+	}
+}

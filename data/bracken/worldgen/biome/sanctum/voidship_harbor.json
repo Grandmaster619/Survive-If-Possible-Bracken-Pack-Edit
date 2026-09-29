@@ -1,0 +1,58 @@
+{
+    "spawners": {
+        "water_ambient": [
+            {
+                "type": "minecraft:tropical_fish",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [],
+        "monster": []
+    },
+    "spawn_costs": {},
+    "carvers": [
+        "minecraft:canyon"
+    ],
+    "features": [
+        [
+            "minecraft:sculk_patch_deep_dark"
+        ],
+        [
+            "bracken:sanctum/coal",
+            "bracken:brine/redstone_blobs"
+        ],
+        [
+            "minecraft:warm_ocean_vegetation",
+            "minecraft:sea_pickle",
+            "bracken:brine/supercoral"
+        ],
+        [
+            "bracken:sanctum/city_tree2"
+        ],
+        [
+            "minecraft:glow_lichen",
+            "bracken:sanctum/fire"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+    "water_color": "#702c3d"},
+    "attributes": {
+        "minecraft:visual/water_fog_color": "#5a0f2d"
+    },
+    "has_precipitation": false
+}

@@ -1,0 +1,76 @@
+
+{
+    "name": "mazea",
+    "fallback": "minecraft:empty",
+    "elements": [
+         {
+            "weight": 1,
+            "element": {
+                "location": "bracken:dormis/maze/maze2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }, 
+       
+        
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:dormis/maze/maze8",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },          
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:dormis/maze/maze12b",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:dormis/maze/maze14",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:dormis/maze/maze19",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },       
+        
+        {
+            "weight": 3,
+            "element": {
+                "location": "bracken:dormis/maze/maze26",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:dormis/maze/maze25",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

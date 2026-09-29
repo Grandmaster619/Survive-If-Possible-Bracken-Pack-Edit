@@ -1,0 +1,87 @@
+{
+    "attributes": {
+        "minecraft:audio/background_music": {
+            "default": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "replace_current_music": false,
+                "sound": "minecraft:music.creative"
+            }
+        },
+        "minecraft:audio/ambient_sounds": 
+        {
+            "mood": {
+                "sound": "minecraft:ambient.cave",
+                "tick_delay": 6000,
+                "block_search_extent": 8,
+                "offset": 2
+            },
+            "additions": {
+                "sound": "minecraft:entity.parrot.ambient",
+                "tick_chance": 0.0002
+            }
+        },
+        "visual/ambient_particles": [{
+            "particle": {
+                "type": "minecraft:sneeze"
+            },
+            "probability": 0.0001428
+        }],
+        "visual/sky_color": 14147765,
+        "visual/fog_color": 15132551
+    },
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [
+            {
+                "type": "minecraft:bee",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ]
+    },
+    "spawn_costs": {},
+    "carvers": [
+        "minecraft:canyon"
+      ],
+   
+    "features": [
+        [
+            "bracken:panacea/honey_pile"
+        ],
+        [
+            "bracken:panacea/honey_tree"
+        ],
+        [
+            "bracken:panacea/comb_column"
+        ],
+        [
+            "bracken:panacea/honey_pool"
+        ],
+        [
+            "bracken:panacea/shroom_blobs"
+        ],
+        [
+            "bracken:panacea/coal_blobs"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "water_color": 11509077,
+        "grass_color": 7238193,
+        "foliage_color": 9653504
+    },
+    "has_precipitation": true
+}

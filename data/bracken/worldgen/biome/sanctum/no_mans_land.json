@@ -1,0 +1,99 @@
+{
+    "attributes": {
+        "minecraft:audio/background_music": {
+            "default": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "replace_current_music": false,
+                "sound": "minecraft:music.nether.soul_sand_valley"
+            }
+        },
+        "audio/ambient_sounds": {
+            "additions": {
+                "sound": "minecraft:ambient.soul_sand_valley.loop",
+                "tick_chance": 0.05
+            },
+            "mood": {
+                "sound": "minecraft:entity.zombie_villager.converted",
+                "tick_delay": 1000,
+                "block_search_extent": 8,
+                "offset": 2
+            }
+        },
+        "visual/ambient_particles": [{
+            "particle": {
+                "type": "minecraft:white_ash"
+            },
+            "probability": 0.118093334
+        }]
+    },
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [
+            {
+                "type": "minecraft:hoglin",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 1
+            }
+            
+        ],
+        "monster": [{
+                "type": "minecraft:creeper",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:ghast",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            }]
+    },
+    "spawn_costs": {},
+    "carvers": [
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+      ],
+    "features": [
+        [
+            "minecraft:fossil_upper",
+            "minecraft:fossil_lower"
+        ],
+        [],
+        [
+            "minecraft:basalt_pillar"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:spring_water"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "water_color": 16146734,
+        "grass_color": 13882581,
+        "foliage_color": 13882581
+    },
+    "has_precipitation": false
+}

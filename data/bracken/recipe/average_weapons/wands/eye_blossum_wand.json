@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+"minecraft:open_eyeblossom",
+"minecraft:stick"],
+	
+	"result": {
+		"id": "minecraft:wooden_shovel",
+		"count": 1,
+		"components": {
+			
+            "minecraft:enchantments": {
+				"bracken:blinding": 1
+			  },
+			"minecraft:item_name": "Eye Blossom Wand",
+			"minecraft:item_model": "bracken:average_weapons/wands/eye_blossom_wand",
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:attack_speed",
+					"id": "bracken:eye_blossum_wand",
+					"amount": -3.2,
+					"operation": "add_value",
+					"slot": "hand"
+				}],
+			
+
+			"minecraft:custom_data": {
+				"bp": {
+					"id": "eye_blossom_wand"
+				}
+			}
+		}
+	}
+}

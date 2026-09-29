@@ -1,0 +1,75 @@
+{
+    "attributes": {
+        "minecraft:audio/background_music": {
+            "default": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "replace_current_music": false,
+                "sound": {"sound_id": "bracken:pax"}
+            }
+        },
+        "visual/ambient_particles": [{
+            "particle": {
+                "type": "minecraft:falling_nectar"
+            },
+            "probability": 0.000118093334
+        }]
+    },
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [
+            {
+                "type": "minecraft:sheep",
+                "weight": 12,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:happy_ghast",
+                "weight": 120,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "monster": []
+    },
+    "spawn_costs": {},
+    "carvers": [],
+    "features": [
+        [],
+        [],
+        [
+            "bracken:pax/rock"
+        ],
+        [
+            "bracken:pax/platform"
+        ],
+        [
+            "bracken:pax/column"
+        ],
+        [
+            "minecraft:trees_meadow",
+            "minecraft:trees_swamp"
+        ],
+        [],
+        [],
+        [],
+        [
+            "minecraft:spring_water"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "water_color": 11851209,
+        "grass_color": 10530139,
+        "foliage_color": 10530139
+    },
+    "has_precipitation": false
+}

@@ -1,0 +1,34 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/ability_books/fang_attack"
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/portal_keys/sanctum_key"
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/sanctum/ostiarius_capsule"
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/sanctum/shepherdess_cloak"
+		}],
+		"functions": [{
+			"function": "set_damage",
+			"damage": {
+				"min": 0,
+				"max": 0.8
+			}
+		}]
+	}]
+}

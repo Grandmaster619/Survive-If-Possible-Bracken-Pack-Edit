@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" ##",
+		" # ",
+		"/  "
+	],
+	"key": {
+		"#": "minecraft:emerald",
+		"/": "minecraft:stick"
+	},
+	"result": {
+		"id": "minecraft:copper_sword",
+		"components": {
+			"minecraft:max_damage": 999,
+			"minecraft:item_name": "Emerald Sickle",
+			"minecraft:item_model": "bracken:average_weapons/emerald/sickle",
+			"minecraft:lore": [
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "8 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false}
+			],
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:attack_damage",
+					"id": "bracken:emerald_sickle",
+					"amount": 7,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:attack_speed",
+					"id": "bracken:emerald_sickle",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+		}
+	}
+}

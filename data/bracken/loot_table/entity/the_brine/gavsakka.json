@@ -1,0 +1,24 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/the_brine/wither_fin",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"max": 2.0,
+					"min": 0.0
+				}
+			},{
+				"function": "enchanted_count_increase",
+				"count": {
+					"max": 2.0,
+					"min": 1.0
+				},
+				"enchantment": "looting",
+				"limit": 4
+			}]
+		}]
+	}]
+}

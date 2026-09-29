@@ -1,0 +1,419 @@
+{
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 7,
+			"max": 10
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:clock",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:moss_block",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},
+		
+		
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/night_vision_goggles",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},
+		
+		
+		{
+			"type": "loot_table",
+			"value": "bracken:item/metal_apples/copper_apple",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/tools/unruly_compass",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/potions/saturation_potion",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": 5
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite/warhammer",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite/bludgeon",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite/buckler",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite/cutlass",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite/dagger",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite/greatsword",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite/katana",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite/rapier",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite/sabre",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite/short_spear",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite/sickle",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_pickaxe",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_sword",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_shovel",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_axe",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_hoe",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_helmet",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_chestplate",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_leggings",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_boots",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:rotten_flesh",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.4
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:bone",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.4
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:bone_meal",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.4
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:smithing_table",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:obsidian",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		}]
+	}]
+}

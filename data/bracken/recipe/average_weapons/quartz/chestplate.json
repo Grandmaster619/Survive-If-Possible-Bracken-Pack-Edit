@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"# #",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:quartz"
+	},
+	"result": {
+		"id": "minecraft:diamond_chestplate",
+		"components": {
+			"minecraft:max_damage": 370,
+			"minecraft:equippable": {
+				"slot": "chest",
+				"asset_id": "bracken:quartz"
+			},
+			"minecraft:item_name": "Quartz Chestplate",
+			"minecraft:item_model": "bracken:average_weapons/quartz/chestplate",
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:armor",
+					"id": "bracken:quartz_chestplate",
+					"amount": 6,
+					"operation": "add_value",
+					"slot": "chest"
+				},
+				{
+					"type": "minecraft:armor_toughness",
+					"id": "bracken:quartz_chestplate_armor_toughness",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "feet"
+				}]
+		}
+	}
+}

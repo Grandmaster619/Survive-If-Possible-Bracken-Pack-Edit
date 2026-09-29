@@ -1,0 +1,36 @@
+{
+    "attributes": {
+        "audio/ambient_sounds": {
+            "additions": {
+                "sound": "minecraft:ambient.crimson_forest.additions",
+                "tick_chance": 0.005
+            },
+            "mood": {
+                "sound": "minecraft:ambient.cave",
+                "tick_delay": 6000,
+                "block_search_extent": 8,
+                "offset": 2
+            }
+        }
+    },
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [
+        ],
+        "monster": []
+    },
+    "spawn_costs": {},
+    "carvers": [],
+    "features": [],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "water_color": 4996043,
+        "grass_color": 2065734,
+        "foliage_color": 4241526
+    },
+    "has_precipitation": true
+}
