@@ -4,7 +4,7 @@
 ##########################################################
 
 # Travel to underdark
-execute if entity @s[y=222,dy=100] run return run function bracken:dimension/crossing/nether_to_underdark
+execute if entity @s[y=249,dy=100] run return run function bracken:dimension/crossing/nether_to_underdark
 
 # Travel to sanctum
 execute if entity @s[y=4,dy=-200] run return run function bracken:dimension/crossing/nether_to_sanctum
