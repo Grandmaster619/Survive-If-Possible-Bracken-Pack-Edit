@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-effect give @e[distance=..120] strength 2 10 false
+effect give @e[distance=..120] strength 1 10 false
 particle minecraft:damage_indicator ~ ~1 ~ 1 1 1 0.01 1
 particle minecraft:dragon_breath ~ ~1 ~ 0.2 0.2 0.2 0.01 1
 
