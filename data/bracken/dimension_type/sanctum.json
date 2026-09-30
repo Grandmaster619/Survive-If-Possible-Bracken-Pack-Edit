@@ -1,7 +1,7 @@
 {
   "default_clock": "minecraft:overworld",
   "has_ender_dragon_fight": false,
-  "ambient_light": 0.1,
+  "ambient_light": 0.0,
   "attributes": {
     "minecraft:audio/ambient_sounds": {
       "mood": {
@@ -30,12 +30,13 @@
     "minecraft:gameplay/piglins_zombify": true,
     "minecraft:gameplay/can_start_raid": true,
     "minecraft:gameplay/snow_golem_melts": true,
+    "minecraft:gameplay/sky_light_level": 15,
 
     "visual/cloud_fog_end_distance": 128.0034
   },
   "coordinate_scale": 8.0,
   "has_ceiling": true,
-  "has_skylight": false,
+  "has_skylight": true,
   "height": 368,
   "has_fixed_time": true,
 
@@ -43,11 +44,7 @@
   "infiniburn": "#minecraft:infiniburn_sanctum",
   "logical_height": 100,
   "min_y": -64,
-  "monster_spawn_block_light_limit": 0,
-  "monster_spawn_light_level": {
-    "type": "minecraft:uniform",
-    "max_inclusive": 7,
-    "min_inclusive": 0
-  },
+  "monster_spawn_block_light_limit": 15,
+  "monster_spawn_light_level": 15,
   "timelines": "#bracken:in_sanctum"
 }
