@@ -12,4 +12,4 @@ effect give @s[y=214,dy=100] jump_boost 2 1 true
 effect give @s[y=230,dy=100] jump_boost 2 7 true
 
 # travel omnidrome
-#execute if entity @n[type=minecraft:end_crystal,distance=..1] run return run function bracken:dimension/crossing/sanctum_to_omnidrome
+execute if entity @n[type=minecraft:end_crystal,distance=..1] run return run function bracken:dimension/crossing/sanctum_to_omnidrome
