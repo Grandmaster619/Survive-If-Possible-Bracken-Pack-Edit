@@ -33,7 +33,16 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/copper/axe",
-					"minecraft:max_damage": 225
+					"minecraft:max_damage": 225,
+					"minecraft:tool": {
+						"rules": [
+							{
+								"blocks": "#minecraft:mineable/axe",
+								"correct_for_drops": true,
+								"speed": 11
+							}
+						]
+					}
 				}
 			},{
 				"function": "minecraft:set_attributes",
@@ -47,13 +56,6 @@
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:copper_axe",
 					"amount": -3,
-					"operation": "add_value",
-					"slot": "mainhand"
-				},
-				{
-					"attribute": "minecraft:block_break_speed",
-					"id": "bracken:copper_axe",
-					"amount": -0.2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]
