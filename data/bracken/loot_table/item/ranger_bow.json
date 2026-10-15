@@ -9,7 +9,7 @@
 				"components": {
 					"minecraft:repair_cost": 100,
 					"minecraft:enchantments": {
-						"minecraft:punch": 10,
+						"minecraft:punch": 5,
 						"minecraft:vanishing_curse": 1
 					},
 					"minecraft:item_name": "\"Dreambow\"",
