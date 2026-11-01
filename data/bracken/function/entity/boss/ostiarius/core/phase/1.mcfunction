@@ -19,7 +19,7 @@ particle minecraft:totem_of_undying ~ ~2 ~ 10 10 10 0.01 1
 
 #DOOMSDAY
 execute if entity @e[distance=..3,type=armor_stand,tag=bp.ostiarius_xp_stand] run function bracken:entity/boss/ostiarius/core/doomsday/doom_score
-execute at @e[type=armor_stand,distance=..50,tag=bp.ostiarius_xp_stand] run tp @n[distance=..0] ^ ^ ^0.2 facing entity @s
+execute at @e[type=armor_stand,distance=..50,tag=bp.ostiarius_xp_stand] run function bracken:travel/ostiarius_nearest
 
 # xp pull
 execute if score @s bp.boss_3 matches 1.. as @a[distance=..50,level=1..] at @s run function bracken:entity/boss/ostiarius/core/attack/pull_xp

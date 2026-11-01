@@ -8,7 +8,6 @@
 experience add @s[scores={bp.10_second=1}] 1 points
 
 # Leaf platform
-execute if entity @s[tag=bp.fae_leaves_queue,gamemode=!spectator] run function bracken:dimension/commands/the_faewild/create_leaf_platform
 
 # Mobs
 execute if score @s bp.1_second matches 2 run function bracken:entity/the_faewild/faewild_mobs

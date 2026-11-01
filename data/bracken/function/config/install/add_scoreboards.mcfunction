@@ -39,6 +39,13 @@ scoreboard objectives add bp.hunter_morph dummy
 scoreboard objectives add bp.outlander_charge dummy
 scoreboard objectives add bp.absorption dummy
 scoreboard objectives add bp.dim_title_queue dummy
+scoreboard objectives add bp.travel_seq dummy
+scoreboard objectives add bp.travel_route dummy
+scoreboard objectives add bp.travel_state dummy
+scoreboard objectives add bp.travel_age dummy
+scoreboard objectives add bp.travel_epoch dummy
+scoreboard objectives add bp.travel_mode dummy
+scoreboard objectives add bp.travel_result dummy
 
 # Custom potion effects
 scoreboard objectives add bp.astral_time dummy
@@ -149,3 +156,11 @@ scoreboard players set #20 bp.var 20
 scoreboard players set #-1 bp.var -1
 scoreboard players set #6 bp.var 6
 scoreboard players set #0 bp.var 0
+
+scoreboard objectives add bp.travel_caster dummy
+scoreboard objectives add bp.travel_cast dummy
+scoreboard objectives add bp.travel_pending dummy
+
+scoreboard objectives add bp.travel_anchor dummy
+
+scoreboard objectives add bp.enderling_travel_cd dummy

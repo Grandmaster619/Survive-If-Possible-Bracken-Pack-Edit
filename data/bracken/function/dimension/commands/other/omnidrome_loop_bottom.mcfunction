@@ -1,2 +1,1 @@
-tp @s ~ 275 ~
-effect give @s slow_falling 1 1 true
+execute positioned ~ 275 ~ rotated as @s run function bracken:travel/routes/omnidrome_loop_bottom/request

@@ -3,19 +3,10 @@
 # Creators: Grandmaster
 ##########################################################
 
+execute if score @s bp.travel_state matches 1.. run return 0
+execute if score @s bp.travel_state matches ..-1 run return 0
 tag @s remove bp.recall_wait
-
-tellraw @s ["",{"selector":"@s"},{"translate":" generated [RECALL]"}]
-playsound minecraft:entity.player.splash.high_speed player @a[distance=..30] ~ ~ ~ 10 0
-tag @s add bp.target
-execute as @e[type=marker,tag=bp.recall] at @s if score @p[tag=bp.target] bp.world_player_id = @s bp.world_player_id run tp @p[tag=bp.target] @s
-execute as @e[type=marker,tag=bp.recall] at @s if score @p[tag=bp.target] bp.world_player_id = @s bp.world_player_id run tag @p[tag=bp.target] add bp.recall_void
-
-tellraw @s[tag=!bp.recall_void] {"translate":"§cTELEPORT CANCELED! You home is either void or destroyed!"}
-experience add @s[level=33..,tag=bp.recall_void] -33 levels
-tag @s remove bp.recall_void
-
-tag @p[tag=bp.target] remove bp.target
-
-
-
+execute unless entity @s[level=33..] run return run function bracken:travel/routes/recall/cancel
+execute store result storage bracken:travel lookup.id int 1 run scoreboard players get @s bp.world_player_id
+function bracken:travel/routes/recall/find with storage bracken:travel lookup
+execute unless score @s bp.travel_state matches 1 run function bracken:travel/routes/recall/cancel

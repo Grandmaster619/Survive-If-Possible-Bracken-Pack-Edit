@@ -103,6 +103,13 @@ scoreboard objectives remove bp.elytra_dive
 scoreboard objectives remove bp.paxtravel
 scoreboard objectives remove bp.trample_cd
 scoreboard objectives remove bp.dim_title_queue
+scoreboard objectives remove bp.travel_seq
+scoreboard objectives remove bp.travel_route
+scoreboard objectives remove bp.travel_state
+scoreboard objectives remove bp.travel_age
+scoreboard objectives remove bp.travel_epoch
+scoreboard objectives remove bp.travel_mode
+scoreboard objectives remove bp.travel_result
 
 
 ##########   ITEMS AND EQUIPMENT   ##########
@@ -396,3 +403,11 @@ scoreboard objectives remove _OMNI.POWER.world_soar
 scoreboard objectives remove _OMNI.POWER.worm_toothed_burrower 
 
 scoreboard objectives remove bracken.species_info
+
+scoreboard objectives remove bp.travel_caster
+scoreboard objectives remove bp.travel_cast
+scoreboard objectives remove bp.travel_pending
+
+scoreboard objectives remove bp.travel_anchor
+
+scoreboard objectives remove bp.enderling_travel_cd

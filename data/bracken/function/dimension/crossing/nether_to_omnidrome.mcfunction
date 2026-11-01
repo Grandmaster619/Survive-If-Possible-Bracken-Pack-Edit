@@ -3,6 +3,5 @@
 # Creators: Brackenstrike
 ##########################################################
 
-#execute unless score #1 bp.spawn_loading matches 1 in bracken:omnidrome unless entity @e[type=marker,tag=bp.dimension_marker,distance=..200] run function bracken:dimension/crossing/spawn_platforms/sanctum_to_omnidrome_spawn_tag
-execute in bracken:omnidrome run tp @s ~ ~ ~
-#advancement grant @s only bracken:sanctum/omn
+
+execute in bracken:omnidrome positioned ~ ~ ~ rotated as @s run function bracken:travel/routes/nether_to_omnidrome/request

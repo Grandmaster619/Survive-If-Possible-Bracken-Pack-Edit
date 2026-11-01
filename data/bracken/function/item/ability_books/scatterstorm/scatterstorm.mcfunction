@@ -3,12 +3,8 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-
-playsound minecraft:entity.enderman.teleport player @a[distance=..30] ~ ~ ~ 10 0
-spreadplayers ~ ~ 20 30 under 500 false @e[distance=..20]
-spreadplayers ~ ~ 20 30 under 120 false @s[predicate=bracken:dimensions/the_nether,distance=..20]
-spreadplayers ~ ~ 20 30 under 250 false @s[predicate=bracken:dimensions/the_underdark,distance=..20]
-tellraw @s ["",{"selector":"@s"},{"translate":" generated [SCATTERSTORM]"}]
-
-experience add @s -7 levels
-scoreboard players set @s bp.cooldown 20
+execute unless entity @s[level=7..] run return 0
+execute if score @s bp.travel_state matches 1.. run return 0
+execute unless score @s bp.world_player_id matches 1.. run function bracken:player/set_player_id
+execute store result storage bracken:travel lookup.id int 1 run scoreboard players get @s bp.world_player_id
+function bracken:travel/scatter/start with storage bracken:travel lookup

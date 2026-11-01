@@ -3,7 +3,5 @@
 # Creators: Bracken
 ##########################################################
 
-execute in bracken:the_brine unless entity @n[type=marker,tag=bp.brine_spawn_portal,distance=..1000] at @s run function bracken:dimension/crossing/spawn_platforms/find_brine_portal
-execute in bracken:the_brine run tp @s @n[type=marker,tag=bp.brine_spawn_portal,distance=..1000]
-scoreboard players set @s bp.conduit 0
-advancement grant @s only bracken:bri
+execute in bracken:the_brine if entity @n[type=marker,tag=bp.brine_spawn_portal,distance=..1000] at @n[type=marker,tag=bp.brine_spawn_portal,distance=..1000] run return run function bracken:travel/routes/overworld_to_brine_existing/request
+execute at @s in bracken:the_brine positioned ~ 455 ~ rotated as @s run function bracken:travel/routes/overworld_to_brine_new/request

@@ -3,13 +3,4 @@
 # Creators: Grandmaster
 ##########################################################
 
-execute in bracken:glacium run tp @s ~ 400 ~
-execute at @s run forceload add ~ ~
-scoreboard players set @s bp.ice 0
-effect give @s slow_falling 20 2 false
-advancement grant @s only bracken:gla
-execute in bracken:glacium run function bracken:remove_forceload
-
-
-
-
+execute in bracken:glacium positioned ~ 400 ~ rotated as @s run function bracken:travel/routes/overworld_to_glacium/request

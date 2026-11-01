@@ -1,5 +1,6 @@
 ##########   SCOREBOARDS   ###########
 function bracken:config/install/add_scoreboards
+function bracken:travel/load
 
 ##########   MATH INIT   #########
 function bracken:math/load

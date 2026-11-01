@@ -1,6 +1,5 @@
+execute if score @s bp.travel_state matches ..-1 run return 0
+execute if score @s bp.travel_state matches 1.. run return 0
 tellraw @s ["",{"translate":"Chunks Loading... Teleportation to "},{"translate":"the Faewild","color":"blue"},{"translate":" will occur in a moment. If you die before setting a spawnpoint, you will return to the overworld!"}]
 
-execute in bracken:the_faewild run spreadplayers ~ ~ 20 30 under 100 false @s
-function bracken:player/arbitrium/change_race/103
-
-
+execute in bracken:the_faewild run function bracken:travel/routes/starting_dimension_faewild/request

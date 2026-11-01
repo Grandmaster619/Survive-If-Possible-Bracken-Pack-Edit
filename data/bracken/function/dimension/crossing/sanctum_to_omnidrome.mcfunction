@@ -3,6 +3,5 @@
 # Creators: Brackenstrike
 ##########################################################
 
-execute unless score #1 bp.spawn_loading matches 1 in bracken:omnidrome unless entity @e[type=marker,tag=bp.dimension_marker,distance=..200] run function bracken:dimension/crossing/spawn_platforms/sanctum_to_omnidrome_spawn_tag
-execute in bracken:omnidrome run tp @s @n[type=marker,tag=bp.dimension_marker,distance=..200]
-#advancement grant @s only bracken:sanctum/omn
+execute in bracken:omnidrome if entity @n[type=marker,tag=bp.dimension_marker,distance=..200] at @n[type=marker,tag=bp.dimension_marker,distance=..200] run return run function bracken:travel/routes/sanctum_to_omnidrome_existing/request
+execute in bracken:omnidrome align xz positioned ~1.457206493202712 65 ~-2.128231913204502 run function bracken:travel/routes/sanctum_to_omnidrome_new/request

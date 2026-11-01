@@ -11,10 +11,10 @@ execute if block ~ ~ ~ water run return fail
 execute if block ~ ~ ~ lava run return fail
 
 # Teleport
-execute if block ~ ~ ~ #bracken:no_collision if block ~ ~1 ~ #air align xyz run return run tp @s ~0.5 ~ ~0.5
+execute if block ~ ~ ~ #bracken:no_collision if block ~ ~1 ~ #air align xyz positioned ~0.5 ~ ~0.5 rotated as @s run return run function bracken:travel/routes/enderling_controlled/request
 
 # Check that target block has enough space above it 
-execute if block ~ ~1 ~ #air if block ~ ~2 ~ #air align xyz run return run tp @s ~0.5 ~1 ~0.5
+execute if block ~ ~1 ~ #air if block ~ ~2 ~ #air align xyz positioned ~0.5 ~1 ~0.5 rotated as @s run return run function bracken:travel/routes/enderling_controlled/request
 
 # Teleport enderling to ground if they hit a wall
-execute positioned ^ ^ ^-0.1 unless block ~ ~-1 ~ #air align xyz run tp @s ~0.5 ~ ~0.5
+execute positioned ^ ^ ^-0.1 unless block ~ ~-1 ~ #air align xyz positioned ~0.5 ~ ~0.5 rotated as @s run function bracken:travel/routes/enderling_controlled/request

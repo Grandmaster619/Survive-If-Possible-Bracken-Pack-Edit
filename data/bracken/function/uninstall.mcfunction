@@ -6,7 +6,7 @@
 ##########   ENTITIES   ############
 execute as @e[type=marker,tag=bp.recall] at @s run function bracken:item/ability_books/recall/home_destroyed
 execute as @e[type=marker,tag=bp.mm_portal] at @s run function bracken:item/ability_books/mansion/destroy_portal
-execute as @a[scores={bp.astral_time=1..}] at @s run function bracken:player/potion/astral_projection/effect_end
+execute as @a[scores={bp.astral_time=1..}] at @s run function bracken:player/potion/astral_projection/force_return
 kill @e[type=minecraft:giant,tag=bp.tooth]
 kill @e[type=minecraft:giant,tag=bp.sword]
 

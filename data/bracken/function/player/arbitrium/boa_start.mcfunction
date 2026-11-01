@@ -6,6 +6,7 @@
 ##########################################################
 
 
+execute if score @s bp.travel_state matches 1.. run return 0
 execute if score @s bp.species_selected matches 1.. run function bracken:player/arbitrium/macros/species_macro_setup
 execute if score @s bp.dimension_selected matches 1.. run function bracken:player/arbitrium/macros/dimension_macro_setup
 

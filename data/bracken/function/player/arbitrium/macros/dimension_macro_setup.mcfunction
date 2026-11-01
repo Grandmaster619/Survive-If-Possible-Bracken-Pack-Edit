@@ -4,8 +4,12 @@
 ##########################################################
 
 
+execute if score @s bp.travel_state matches ..-1 run return 0
+execute if score @s bp.travel_state matches 1.. run return 0
 execute unless score @s bp.dimension_selected matches 1..11 run return 0
 execute store result storage bracken:var dim_select.num int 1 run scoreboard players get @s bp.dimension_selected
+scoreboard players reset @s bp.dimension_selected
+scoreboard players enable @s bp.dimension_selected
 
 function bracken:player/arbitrium/macros/dimension_selection with storage bracken:var dim_select
 

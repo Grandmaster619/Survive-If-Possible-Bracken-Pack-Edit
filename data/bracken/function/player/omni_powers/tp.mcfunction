@@ -3,6 +3,5 @@
 # Creators: Bracken
 ##########################################################
 
-tp @s @p[distance=1..,predicate=bracken:dimensions/omnidrome]
-
+execute at @p[distance=1..,predicate=bracken:dimensions/omnidrome] run function bracken:travel/routes/omni_nearest_player/request
 return 1

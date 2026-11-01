@@ -10,98 +10,98 @@
       "label": "Teleport to Dormis",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in bracken:dormis run tp @s ~ ~ ~"
+        "command": "execute in bracken:dormis run function bracken:travel/routes/admin_dialog_to_dormis/request"
       }
     },
     {
       "label": "Teleport to Glacium",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in bracken:glacium run tp @s ~ ~ ~"
+        "command": "execute in bracken:glacium run function bracken:travel/routes/admin_dialog_to_glacium/request"
       }
     },
     {
       "label": "Teleport to Omnidrome",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in bracken:omnidrome run tp @s ~ ~ ~"
+        "command": "execute in bracken:omnidrome run function bracken:travel/routes/admin_dialog_to_omnidrome/request"
       }
     },
     {
       "label": "Teleport to the Overworld",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in minecraft:overworld run tp @s ~ ~ ~"
+        "command": "execute in minecraft:overworld run function bracken:travel/routes/admin_dialog_to_overworld/request"
       }
     },
     {
       "label": "Teleport to Panacea",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in bracken:panacea run tp @s ~ ~ ~"
+        "command": "execute in bracken:panacea run function bracken:travel/routes/admin_dialog_to_panacea/request"
       }
     },
     {
       "label": "Teleport to Pax",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in bracken:pax run tp @s ~ ~ ~"
+        "command": "execute in bracken:pax run function bracken:travel/routes/admin_dialog_to_pax/request"
       }
     },
     {
       "label": "Teleport to Sanctum",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in bracken:sanctum run tp @s ~ ~ ~"
+        "command": "execute in bracken:sanctum run function bracken:travel/routes/admin_dialog_to_sanctum/request"
       }
     },
     {
       "label": "Teleport to the Brine",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in bracken:the_brine run tp @s ~ ~ ~"
+        "command": "execute in bracken:the_brine run function bracken:travel/routes/admin_dialog_to_brine/request"
       }
     },
     {
       "label": "Teleport to the End",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in minecraft:the_end run tp @s ~ ~ ~"
+        "command": "execute in minecraft:the_end run function bracken:travel/routes/admin_dialog_to_end/request"
       }
     },
     {
       "label": "Teleport to the Faewilds",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in bracken:the_faewild run tp @s ~ ~ ~"
+        "command": "execute in bracken:the_faewild run function bracken:travel/routes/admin_dialog_to_faewild/request"
       }
     },
     {
       "label": "Teleport to the Nether",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in minecraft:the_nether run tp @s ~ ~ ~"
+        "command": "execute in minecraft:the_nether run function bracken:travel/routes/admin_dialog_to_nether/request"
       }
     },
     {
       "label": "Teleport to the Underdark",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in bracken:the_underdark run tp @s ~ ~ ~"
+        "command": "execute in bracken:the_underdark run function bracken:travel/routes/admin_dialog_to_underdark/request"
       }
     },
     {
       "label": "Teleport to Varskspace",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in bracken:varskspace run tp @s ~ ~ ~"
+        "command": "execute in bracken:varskspace run function bracken:travel/routes/admin_dialog_to_varskspace/request"
       }
     },
     {
       "label": "Teleport to the Void",
       "action": {
         "type": "minecraft:run_command",
-        "command": "execute in bracken:void run tp @s ~ ~ ~"
+        "command": "execute in bracken:void run function bracken:travel/routes/admin_dialog_to_void/request"
       }
     }
   ]

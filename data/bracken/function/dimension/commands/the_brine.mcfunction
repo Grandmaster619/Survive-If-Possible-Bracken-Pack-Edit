@@ -17,7 +17,6 @@ execute if predicate bracken:rain positioned over motion_blocking if entity @s[d
 
 # Dimension Travel
 execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} run function bracken:dimension/commands/the_brine/travel
-execute if entity @s[tag=bp.brine_spawn_portal] run function bracken:dimension/crossing/spawn_platforms/brine_portal
 
 # Ambience
 
@@ -32,4 +31,3 @@ execute unless entity @s[y=450,dy=100] run stopsound @s * bracken:brine_waves
 
 
 #execute unless score @s bp.ambience.brine_beach_cd matches -2147483648..2147483647 run scoreboard players set @s bp.ambience.brine_beach_cd 0
-

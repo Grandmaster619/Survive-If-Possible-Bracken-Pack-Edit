@@ -3,10 +3,4 @@
 # Creators: Grandmaster, Bracken
 ##########################################################
 
-execute in minecraft:the_nether align xz run tp @s ~0.5 244 ~0.5
-execute at @s run forceload add ~ ~
-execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air
-effect give @s slow_falling 15 3 true
-effect give @s fire_resistance 30 1 false
-advancement grant @s only bracken:the_underdark/nether
-execute in minecraft:the_nether run function bracken:remove_forceload
+execute in minecraft:the_nether align xz positioned ~0.5 244 ~0.5 rotated as @s run function bracken:travel/routes/underdark_to_nether/request

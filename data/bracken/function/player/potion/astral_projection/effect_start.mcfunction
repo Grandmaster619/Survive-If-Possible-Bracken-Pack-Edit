@@ -13,6 +13,7 @@ execute unless score @s bp.world_player_id matches 1.. run function bracken:play
 
 forceload add ~ ~
 summon marker ~ ~ ~ {Tags:[bp.astral_marker,bp.astral_setup,bp.forceload]}
+data modify entity @n[type=marker,tag=bp.astral_setup] data.travel_dimension set from entity @s Dimension
 scoreboard players operation @n[type=marker,tag=bp.astral_setup] bp.world_player_id = @s bp.world_player_id
 execute as @n[type=marker,tag=bp.astral_setup] at @s run function bracken:player/potion/astral_projection/setup_marker
 

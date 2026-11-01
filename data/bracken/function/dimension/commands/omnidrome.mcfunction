@@ -20,7 +20,7 @@ effect give @s[predicate=bracken:sprint,scores={bp.omni_sprint=2..}] minecraft:s
 execute if entity @s[predicate=bracken:sprint,scores={bp.omni_sprint=2..}] run particle minecraft:block_marker{block_state:"minecraft:tinted_glass"} ~ ~1 ~
 
 execute if entity @s[y=-42,dy=-100] run function bracken:dimension/commands/other/omnidrome_loop_bottom
-tp @s[y=280,dy=100] ~ -38 ~
+execute if entity @s[y=280,dy=100] positioned ~ -38 ~ rotated as @s run function bracken:travel/routes/omnidrome_loop_top/request
 
 # Mansion Spell Book
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_books/mansion/tp_from_mansion/tp_back_setup

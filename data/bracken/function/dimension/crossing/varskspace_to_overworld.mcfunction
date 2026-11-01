@@ -1,4 +1,1 @@
-
-effect give @s minecraft:resistance 3 4 true
-execute in minecraft:overworld run tp @s ~ 100 ~
-advancement grant @s only bracken:var
+execute in minecraft:overworld positioned ~ 100 ~ rotated as @s run function bracken:travel/routes/varskspace_to_overworld/request
